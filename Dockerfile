@@ -1,6 +1,4 @@
-FROM alpine:3.3
-
-MAINTAINER Alastair Montgomery "alastair@montgomery.me.uk"
+FROM alpine
 
 RUN apk --update add ympd
 
