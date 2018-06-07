@@ -1,6 +1,7 @@
 FROM alpine
 
-RUN apk --update add ympd
+RUN apk --update add ympd && \
+    rm -rf /var/cache/apk/*
 
 EXPOSE 8080
 
